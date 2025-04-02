@@ -1,0 +1,42 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/home/wm/Documents/PlatformIO/Projects/250402-103613-assembly-blink/include",
+                "/home/wm/Documents/PlatformIO/Projects/250402-103613-assembly-blink/src",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/home/wm/Documents/PlatformIO/Projects/250402-103613-assembly-blink/include",
+                    "/home/wm/Documents/PlatformIO/Projects/250402-103613-assembly-blink/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "F_CPU=16000000L",
+                "PLATFORMIO=60118",
+                "ARDUINO_AVR_MICRODUINO_CORE",
+                "TX_PIPE=1",
+                "RX_PIPE=0",
+                "__AVR_ATmega328PB__",
+                ""
+            ],
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++11",
+            "compilerPath": "/home/wm/.platformio/packages/toolchain-atmelavr/bin/avr-gcc",
+            "compilerArgs": [
+                "-mmcu=atmega328pb",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
